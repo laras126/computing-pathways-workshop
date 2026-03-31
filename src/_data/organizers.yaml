@@ -1,0 +1,19 @@
+# ─── Organizers ───────────────────────────────────────────────────
+# Set lead: true for the primary contact (shown first, highlighted in contact section).
+# All other fields are optional.
+
+- name: "Morgan Ellis"
+  affiliation: "University of Illinois Urbana-Champaign"
+  lead: true
+
+- name: "Priya Ramaswamy"
+  affiliation: "Carnegie Mellon University"
+
+- name: "Tobias Schneider"
+  affiliation: "Aarhus University"
+
+- name: "Jamila Carter"
+  affiliation: "Georgia Tech"
+
+- name: "Kenji Watanabe"
+  affiliation: "University of Washington"

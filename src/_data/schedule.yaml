@@ -1,0 +1,43 @@
+# ─── Schedule ─────────────────────────────────────────────────────
+# Each row needs: time, event
+# Optional: speaker (leave blank if none), type: break (styles the row differently)
+
+- time: "9:00 am"
+  event: "Welcome and introductions"
+
+- time: "9:20 am"
+  event: "Keynote: Infrastructuring for the Long Game"
+  speaker: "Invited speaker"
+
+- time: "10:00 am"
+  event: "Paper session I — Organizing tools"
+
+- time: "10:45 am"
+  event: "Break"
+  type: break
+
+- time: "11:00 am"
+  event: "Paper session II — Civic and political HCI"
+
+- time: "12:00 pm"
+  event: "Lunch (provided)"
+  type: break
+
+- time: "1:00 pm"
+  event: "Structured discussion: methods and gaps"
+
+- time: "2:00 pm"
+  event: "Working groups"
+
+- time: "3:15 pm"
+  event: "Break"
+  type: break
+
+- time: "3:30 pm"
+  event: "Group report-backs"
+
+- time: "4:15 pm"
+  event: "Synthesis and next steps"
+
+- time: "5:00 pm"
+  event: "Close"
