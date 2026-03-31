@@ -65,7 +65,7 @@
 
   /* Section heading with a left rule accent */
   .section-label {
-    @apply font-sans text-xs font-600 tracking-widest uppercase text-ink-muted mb-6;
+    @apply font-sans text-xs font-semibold tracking-widest uppercase text-ink-muted mb-6;
     letter-spacing: 0.12em;
   }
 
@@ -86,7 +86,7 @@
   }
 
   .schedule-table thead th {
-    @apply text-left font-sans font-600 text-ink-muted text-xs uppercase tracking-wider pb-3 border-b border-paper-300;
+    @apply text-left font-sans font-semibold text-ink-muted text-xs uppercase tracking-wider pb-3 border-b border-paper-300;
     letter-spacing: 0.1em;
   }
 
@@ -126,7 +126,7 @@
   }
 
   .organizer-name {
-    @apply font-sans font-500 text-ink;
+    @apply font-sans font-medium text-ink;
   }
 
   .organizer-affiliation {
@@ -141,7 +141,7 @@
   }
 
   .cfp-deadline {
-    @apply inline-block mt-4 font-sans text-sm font-600 text-accent;
+    @apply inline-block mt-4 font-sans text-sm font-semibold text-accent;
   }
 }
 
@@ -151,7 +151,7 @@
     @apply text-sm leading-relaxed;
   }
   .contact-block a {
-    @apply font-500;
+    @apply font-medium;
   }
 }
 

@@ -52,22 +52,22 @@ layout: base.njk
 
     <dl class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
       <div>
-        <dt class="font-sans font-600 text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Submissions due</dt>
+        <dt class="font-sans font-semibold text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Submissions due</dt>
         <dd class="text-ink">{{ workshop.cfp.deadline }}</dd>
       </div>
       <div>
-        <dt class="font-sans font-600 text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Notification</dt>
+        <dt class="font-sans font-semibold text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Notification</dt>
         <dd class="text-ink">{{ workshop.cfp.notification }}</dd>
       </div>
       <div>
-        <dt class="font-sans font-600 text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Camera ready</dt>
+        <dt class="font-sans font-semibold text-ink-muted text-xs uppercase tracking-wider mb-1" style="letter-spacing:.1em">Camera ready</dt>
         <dd class="text-ink">{{ workshop.cfp.camera_ready }}</dd>
       </div>
     </dl>
 
     <p class="mt-8">
       <a href="{{ workshop.cfp.submit_url }}"
-         class="inline-block bg-accent text-paper-50 no-underline px-5 py-2.5 text-sm font-sans font-500 hover:bg-accent-hover transition-colors">
+         class="inline-block bg-accent text-paper-50 no-underline px-5 py-2.5 text-sm font-sans font-medium hover:bg-accent-hover transition-colors">
         Submit a paper
       </a>
     </p>
