@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle if pageTitle else workshop.title }} — {{ workshop.subtitle }}</title>
+  <meta name="description" content="{{ workshop.tagline }}">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  {{ content | safe }}
+
+  <footer class="site-footer">
+    <div class="container-prose">
+      <p>{{ workshop.subtitle }} &middot; {{ workshop.venue }} &middot; {{ workshop.date }}</p>
+    </div>
+  </footer>
+
+</body>
+</html>
