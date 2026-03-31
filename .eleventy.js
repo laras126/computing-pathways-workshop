@@ -5,11 +5,10 @@ module.exports = function (eleventyConfig) {
   // Used in index.njk to pull in content/*.md sections.
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  // Pass through static assets
-  eleventyConfig.addPassthroughCopy("src/css");
+  // Pass through static assets (CSS is handled by Tailwind CLI, not copied here)
   eleventyConfig.addPassthroughCopy("src/img");
 
-  // Watch CSS for changes during dev
+  // Watch src/css so 11ty rebuilds when CSS source changes
   eleventyConfig.addWatchTarget("src/css/");
 
   return {
